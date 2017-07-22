@@ -4,13 +4,12 @@ const types = {
             3: "desctop",
             4: "transformer"
         };
-    function Product(manuf, type, model, price, description){
+    function Product(manuf, model, price, description){
         this.manufactor = manuf;
-        this.type = type; 
         this.price = price;
         this.description = description;
         this.show = function() {
-            return "Manufact: " + this.manufactor + " Type: " + this.type + " price: " + this.price + " Derscription: " + this.description
+            return "Manufact: " + this.manufactor + " price: " + this.price + " Derscription: " + this.description
         }
     }
     function Trashcan(){
@@ -60,7 +59,7 @@ const types = {
             return city[0].toUpperCase() + city.substring(1).toLowerCase(); 
         }
         if(this.name == undefined || this.email == undefined || this.phone == undefined || this.post == undefined){
-            console.log("Заказ не может быть оформлен"); 
+            console.log("Г‡Г ГЄГ Г§ Г­ГҐ Г¬Г®Г¦ГҐГІ ГЎГ»ГІГј Г®ГґГ®Г°Г¬Г«ГҐГ­"); 
         }
     }
     function Shop(){
